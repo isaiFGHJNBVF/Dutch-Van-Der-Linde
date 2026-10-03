@@ -9,8 +9,7 @@ mention triggers, voice reconnect, message cleanup, and a spam-protect channel.
   workflow.
 - For local development, copy `.env.example` to `.env` and put the bot token in
   `.env`. Do not commit `.env`.
-- Install dependencies with `uv sync`, then run `uv run python main.py`.
-- Alternatively, install from `requirements.txt` with
+- Alternatively, install the dependencies from `requirements.txt` with
   `python -m pip install -r requirements.txt`, then run `python main.py`.
 - The bot stores trigger, whitelist, spam-channel, and 24/7 voice settings in
   `bot_data.json`. Keep that file if you want those settings after a restart.
