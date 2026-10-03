@@ -5,7 +5,7 @@ mention triggers, voice reconnect, message cleanup, and a spam-protect channel.
 
 ## Run it
 
-- In Replit, set the `DISCORD_BOT_TOKEN` Secret and start the **Discord Bot**
+- set the `DISCORD_BOT_TOKEN` Secret and start the **Discord Bot**
   workflow.
 - For local development, copy `.env.example` to `.env` and put the bot token in
   `.env`. Do not commit `.env`.
